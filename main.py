@@ -130,7 +130,7 @@ class Pong:
 
     def stop_game (self, done_Text=""):
         self.emoji_effect_label_text2 = flet.Text(done_Text, height=250, text_align=flet.TextAlign.CENTER, size=40, 
-                                                  font_family="Minecraft")
+                                                  font_family="Minecraft", color="white")
         self.emoji_effect_label_row2 = flet.Row([self.emoji_effect_label_text2],
                                                alignment=flet.MainAxisAlignment.CENTER,
                                                top=self.page.height / 2 + 80,
